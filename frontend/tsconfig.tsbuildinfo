@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/api/urlshortenerapi.ts","./src/components/historylist.tsx","./src/components/resultcard.tsx","./src/components/shortenform.tsx","./src/components/statslookup.tsx","./src/components/statusbadge.tsx","./src/hooks/uselocalhistory.ts","./src/types/url.ts","./src/utils/date.ts"],"version":"5.9.3"}

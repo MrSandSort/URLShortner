@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    url: ${DATABASE_URL}
+    username: ${DATABASE_USERNAME}
+    password: ${DATABASE_PASSWORD}
+    driver-class-name: org.postgresql.Driver
+  h2:
+    console:
+      enabled: false
+
+app:
+  shortener:
+    public-base-url: ${PUBLIC_BASE_URL}
+    code-length: ${SHORT_CODE_LENGTH:8}
+    max-create-attempts: ${SHORT_CODE_MAX_ATTEMPTS:10}
+    default-ttl: ${DEFAULT_URL_TTL:365d}
+    blocked-hosts: ${BLOCKED_HOSTS:localhost,127.0.0.1,0.0.0.0}
