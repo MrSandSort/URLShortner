@@ -1,5 +1,8 @@
 # URL Shortener Workspace
 
+![Application Screenshot](ApplicationImage.png)
+
+
 This workspace is split into two production-style projects:
 
 ```text
